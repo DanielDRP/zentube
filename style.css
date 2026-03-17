@@ -1,0 +1,15 @@
+ytd-browse[page-subtype="home"] #contents {
+    display: none !important;
+}
+
+ytd-guide-entry-renderer:has(a[href="/"]), 
+ytd-guide-entry-renderer:has(a[title="Shorts"]),
+ytd-mini-guide-entry-renderer:has(a[href="/"]),
+ytd-mini-guide-entry-renderer:has(a[title="Shorts"]) {
+    display: none !important;
+}
+
+ytd-rich-shelf-renderer:has(ytm-shorts-lockup-view-model-v2),
+ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-slim-media]) {
+    display: none !important;
+}
